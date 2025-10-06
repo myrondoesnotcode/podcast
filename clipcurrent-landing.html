@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClipCurrent – Turn Trends Into Clips</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(180deg, #f9fafb 0%, #ffffff 100%); font-family: 'Inter', sans-serif; }
+    .gradient-text { background: linear-gradient(90deg, #6366f1, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="text-gray-800">
+  <!-- HERO -->
+  <section class="text-center py-24 px-6">
+    <h1 class="text-5xl font-bold mb-4 gradient-text">Your old episodes just became today’s trending clips.</h1>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">ClipCurrent finds moments from your past podcasts that match what’s blowing up on X and Google — so you can join the conversation instantly.</p>
+    <div class="flex justify-center gap-4">
+      <a href="#early-access" class="bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-indigo-700 transition">Get Early Access</a>
+      <a href="#example" class="border border-indigo-600 text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-indigo-50 transition">See Example Alerts</a>
+    </div>
+    <div class="mx-auto mt-12 w-4/5 max-w-3xl rounded-2xl shadow-lg overflow-hidden aspect-video relative">
+      <a href="https://www.youtube.com/shorts/DyVfBRaoU4M" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.youtube.com/vi/DyVfBRaoU4M/hqdefault.jpg" alt="ClipCurrent sample video" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-white opacity-90" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- WHY IT MATTERS -->
+  <section class="bg-gray-50 py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">You already said something brilliant. You just forgot when.</h2>
+      <p class="text-gray-600 text-lg mb-8">Every founder, host, and brand has hundreds of hours of gold buried in old episodes. ClipCurrent listens to your archive, watches what’s trending, and surfaces perfect short clips to post — in seconds.</p>
+      <div class="bg-gradient-to-r from-indigo-100 to-pink-100 rounded-2xl shadow-md py-24 flex flex-col items-center justify-center">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-4">Archive → Trend</h3>
+        <p class="max-w-md text-gray-600">We bridge the gap between your timeless ideas and today's trending topics. ClipCurrent turns your archive into a live content engine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-10">How It Works</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div><div class="text-4xl mb-2">📈</div><h3 class="font-semibold">Track trends</h3><p class="text-gray-600">We scan X, Google Trends, and your watchlist for spikes.</p></div>
+        <div><div class="text-4xl mb-2">🧠</div><h3 class="font-semibold">Match your archive</h3><p class="text-gray-600">AI combs your transcripts and finds perfectly relevant moments.</p></div>
+        <div><div class="text-4xl mb-2">🔔</div><h3 class="font-semibold">Ping your team</h3><p class="text-gray-600">Slack or email alert with timecodes and excerpts.</p></div>
+        <div><div class="text-4xl mb-2">🎬</div><h3 class="font-semibold">Clip it</h3><p class="text-gray-600">Preview or export the short in your brand style.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXAMPLE ALERT -->
+  <section id="example" class="bg-indigo-50 py-20 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-10">Example Alert</h2>
+    <div class="bg-white max-w-xl mx-auto p-6 rounded-2xl shadow">
+      <p class="text-lg mb-2">🔥 <strong>Trend:</strong> “AI Safety”</p>
+      <p>🎧 <strong>Episode:</strong> Mati Gill on Ion Labs</p>
+      <p>🕐 <strong>23:15–24:05</strong> — “The problem with AI safety is everyone wants different guardrails…”</p>
+      <p class="italic mt-4 text-gray-600">💡 Suggested caption: “We’ve been talking about this since 2024 👇 #AI #Policy”</p>
+      <div class="flex justify-center gap-4 mt-6">
+        <a href="#" class="bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700">Open Clip</a>
+        <a href="#" class="border border-indigo-600 text-indigo-600 px-5 py-2 rounded-full hover:bg-indigo-100">Copy Caption</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Start Free</h2>
+      <p class="text-gray-600 mb-10">Index up to 10 hours of episodes for free. Then $29/month for the first 100 hours.<br>Team plans for agencies & studios coming soon.</p>
+      <div class="inline-block bg-white border border-gray-200 rounded-2xl p-8 shadow-md">
+        <p class="text-5xl font-bold mb-2 gradient-text">$29<span class="text-xl text-gray-500">/mo</span></p>
+        <p class="text-gray-600 mb-6">Pro tier — perfect for active creators</p>
+        <a href="#early-access" class="bg-indigo-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-indigo-700">Get Early Access</a>
+      </div>
+      <p class="mt-6 text-gray-500 text-sm">🧃 Cheaper than one freelancer’s morning coffee habit.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="early-access" class="bg-gray-900 text-white py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Be the first to trend your old takes.</h2>
+    <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+      <input type="email" placeholder="you@example.com" class="flex-1 px-4 py-3 rounded-full text-gray-800 focus:outline-none" required />
+      <button class="bg-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-indigo-700">Join Early Access</button>
+    </form>
+    <p class="text-gray-500 text-sm mt-6">© 2025 ClipCurrent. Born in Aleph’s podcast lab.</p>
+  </footer>
+</body>
+</html>
